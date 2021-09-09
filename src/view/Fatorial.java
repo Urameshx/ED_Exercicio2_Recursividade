@@ -1,17 +1,17 @@
 package view;
 import javax.swing.JOptionPane;
 
-import controller.ED_Ex2_Recursividade;
+import controller.ExdoisRecursividade;
 
 public class Fatorial {
 
 	public static void main(String[] args) {
 
 		int numero_entrada;
-		ED_Ex2_Recursividade number = new ED_Ex2_Recursividade();
+		ExdoisRecursividade number = new ExdoisRecursividade();
 		
 		do {  
-			numero_entrada = Integer.parseInt(JOptionPane.showInputDialog("Digite um número de 1 a 12"));
+			numero_entrada = Integer.parseInt(JOptionPane.showInputDialog("Digite um nÃºmero de 1 a 12"));
 		} 
 		while (numero_entrada <= 0 || numero_entrada > 12);
 
